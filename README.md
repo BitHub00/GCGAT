@@ -30,6 +30,10 @@ folium==0.10.1
 ```
 
 ## 运行
-GCMC: python ./scripts/train.py
-GCGAT: python ./scripts/train.py --use_GAT 1
+```bash
+# GCMC
+python ./scripts/train.py  
+# GCCAT
+python ./scripts/train.py --use_GAT 1
+```
 
